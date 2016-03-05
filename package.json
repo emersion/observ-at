@@ -1,0 +1,28 @@
+{
+  "name": "observ-at",
+  "version": "0.1.0",
+  "description": "observ values that keep track of time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersion/observ-at.git"
+  },
+  "keywords": [
+    "observ",
+    "observable",
+    "time"
+  ],
+  "author": "emersion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emersion/observ-at/issues"
+  },
+  "homepage": "https://github.com/emersion/observ-at#readme",
+  "dependencies": {
+    "is-observ": "^1.0.0",
+    "observ": "^0.2.0"
+  }
+}
