@@ -9,7 +9,7 @@ function ObservableAt(value) {
 	var lastUpdate = Date.now();
 	var setter = value.set;
 
-	value.set = function (v) {
+	value.set = function (v, at) {
 		at = at || Date.now();
 		if (lastUpdate > at) return false;
 		lastUpdate = at;
